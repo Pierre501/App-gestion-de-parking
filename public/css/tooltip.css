@@ -1,0 +1,41 @@
+.tooltips {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .tooltips .tooltipstext {
+    visibility: hidden;
+    width: 240px!important;
+    height: 240px!important;
+    background-color: white;
+    color: black;
+    border-radius: 6px;
+    font-size: 12px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    top: 95%;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .tooltips .tooltipstext::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    border-width: 5px;
+    border-style: solid;
+    border-color: white transparent transparent transparent;
+  }
+  
+  .tooltips:hover .tooltipstext {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .design{
+    margin-left: 10px;
+  }

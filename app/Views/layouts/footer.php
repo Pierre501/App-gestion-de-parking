@@ -1,0 +1,1 @@
+<footer class="footer text-center mt-400">Copyright &copy; 2023</footer>
