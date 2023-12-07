@@ -14,7 +14,7 @@
 
 # Deuxièmement :
 1. Créez une base de données sur votre ordinateur.
-2. Dans le répertoire public/data/data.sql, vous trouverez un fichier nommé data.sql. Exécutez les scripts de ce fichier dans votre base de données.
+2. Dans le répertoire public/data, vous trouverez un fichier nommé data.sql. Exécutez les scripts de ce fichier dans votre base de données.
 
 # Troisièmement :
 1. Dans le répertoire app/Config, ouvrez le fichier nommé Database.php et spécifiez le nom de votre base de données.
