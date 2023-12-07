@@ -9,8 +9,8 @@
 
 # Premièrement :
 1. Exécutez les commandes suivantes :
-2. composer install
-3. cp env.example .env
+2. `composer install`
+3. `cp env.example .env`
 
 # Deuxièmement :
 1. Créez une base de données sur votre ordinateur.
